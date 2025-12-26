@@ -67,5 +67,5 @@
         "updated_at": "str",
         "deleted_at": "str"
     },
-    "primary_key": "sub_institute_id"
+    "primary_key": "id"
 }

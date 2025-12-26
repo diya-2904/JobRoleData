@@ -39,7 +39,7 @@ schema = {
     "education": "str",
     "experience": "str",
     "training": "str",
-    "sub_institute_id": "int",  # Primary organization key
+    "sub_institute_id": "int", 
     "created_by": "str",
     "updated_by": "str",
     "deleted_by": "str",
@@ -109,7 +109,7 @@ print(f"Cleaned dataset saved to {output_path}")
 schema_doc = {
     "columns": list(schema.keys()),
     "data_types": schema,
-    "primary_key": "sub_institute_id",
+    "primary_key": "id",
 }
 schema_doc_path = r"c:\Users\DIYA\OneDrive\Desktop\JobRoleData\data_schema.json"
 
