@@ -87,7 +87,6 @@ This repository contains a complete end-to-end data analytics. The project proce
 - Feature-engineered ML dataset
 - EDA JSON report
 - Visualization dashboard
-- Reusable analytics pipeline
 
 
 
