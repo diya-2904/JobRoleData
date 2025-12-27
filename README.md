@@ -13,10 +13,9 @@ This repository contains a complete end-to-end data analytics. The project proce
 - Standardize column names
 - Validate schema and data types
 - Detect and remove duplicate id records
-- Validate sub_institute_id as a mandatory field
 - Generate schema documentation (data_schema.json)
   
-## Outputs:
+Outputs:
 - Cleaned dataset (cleaned_s_user_jobrole.csv)
 - Schema file (data_schema.json)
 
@@ -27,7 +26,7 @@ This repository contains a complete end-to-end data analytics. The project proce
 - Standardize industries and department fields
 - Save fully cleaned dataset
   
-## Outputs:
+Outputs:
 - ETL-processed dataset (cleaned_s_user_jobrole.csv)
 
 # Sprint 3: Exploratory Data Analysis (EDA)
@@ -37,7 +36,7 @@ This repository contains a complete end-to-end data analytics. The project proce
 - Identification of top industries and departments
 - Export EDA results as structured JSON
   
-## Outputs:
+Outputs:
 - EDA report (eda_report.json)
 
 # Sprint 4: Feature Engineering & Visualization
@@ -46,8 +45,8 @@ This repository contains a complete end-to-end data analytics. The project proce
 - Encode job-role categories (Label Encoding + One-Hot Encoding)
 - Generate feature-engineered dataset
 - Build a visual analytics dashboard
-  
-## Outputs:
+
+  Outputs:
 - Feature-engineered dataset (feature_engineered_s_user_jobrole.csv)
 - Visualization dashboard (jobrole_distribution_dashboard.png)
   
@@ -65,7 +64,7 @@ This repository contains a complete end-to-end data analytics. The project proce
 - pip install pandas,numpy, scikit-learn, matplotlib, and seaborn.
 
 2️. Run Data Cleaning & ETL
-- python data_cleaning_etl.py
+- python data_cleaning.py
 
 3. Run Feature Engineering
 - python feature_engineering.py
@@ -78,7 +77,6 @@ This repository contains a complete end-to-end data analytics. The project proce
 - Duplicate-free job-role records
 - Business-friendly job-role categorization
 - ML-ready encoded features
-- Automated EDA reporting
 - Visual insights for decision-makers
 
 ## Final Deliverables
