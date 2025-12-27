@@ -5,12 +5,11 @@ This repository contains a complete end-to-end data analytics. The project proce
 - Remove duplicates and enforce schema consistency
 - Perform exploratory data analysis (EDA)
 - Engineer machine-learning-ready features
-- Generate visual insights for stakeholders
 - Produce ground-truth datasets for AI/ML teams
   
 # Sprint 1: Data Acquisition & Schema Validation
 ## Implemented in code:
-- Load s_user_jobrole.cs
+- Load s_user_jobrole.csv
 - Standardize column names
 - Validate schema and data types
 - Detect and remove duplicate id records
