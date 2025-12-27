@@ -1,20 +1,22 @@
 ## Job Role Data Analytics 
 This repository contains a complete end-to-end data analytics. The project processes raw job-role data, performs cleaning and validation, conducts exploratory data analysis (EDA), engineers features, and generates visual dashboards for business and AI/ML use.
 ## Project Objectives
-Validate and standardize raw job-role datasets
-Remove duplicates and enforce schema consistency
-Perform exploratory data analysis (EDA)
-Engineer machine-learning-ready features
-Generate visual insights for stakeholders
-Produce ground-truth datasets for AI/ML teams
+- Validate and standardize raw job-role datasets
+- Remove duplicates and enforce schema consistency
+- Perform exploratory data analysis (EDA)
+- Engineer machine-learning-ready features
+- Generate visual insights for stakeholders
+- Produce ground-truth datasets for AI/ML teams
+  
 ## Sprint 1: Data Acquisition & Schema Validation
 # Implemented in code:
-Load s_user_jobrole.csv
-Standardize column names
-Validate schema and data types
-Detect and remove duplicate id records
-Validate sub_institute_id as a mandatory field
-Generate schema documentation (data_schema.json)
+- Load s_user_jobrole.cs
+- Standardize column names
+- Validate schema and data types
+- Detect and remove duplicate id records
+- Validate sub_institute_id as a mandatory field
+- Generate schema documentation (data_schema.json)
+  
 # Outputs:
 Cleaned dataset (cleaned_s_user_jobrole.csv)
 Schema file (data_schema.json)
