@@ -1,6 +1,6 @@
-## Job Role Data Analytics 
+# Job Role Data Analytics 
 This repository contains a complete end-to-end data analytics. The project processes raw job-role data, performs cleaning and validation, conducts exploratory data analysis (EDA), engineers features, and generates visual dashboards for business and AI/ML use.
-## Project Objectives
+# Project Objectives
 - Validate and standardize raw job-role datasets
 - Remove duplicates and enforce schema consistency
 - Perform exploratory data analysis (EDA)
@@ -8,8 +8,8 @@ This repository contains a complete end-to-end data analytics. The project proce
 - Generate visual insights for stakeholders
 - Produce ground-truth datasets for AI/ML teams
   
-## Sprint 1: Data Acquisition & Schema Validation
-# Implemented in code:
+# Sprint 1: Data Acquisition & Schema Validation
+## Implemented in code:
 - Load s_user_jobrole.cs
 - Standardize column names
 - Validate schema and data types
@@ -17,38 +17,38 @@ This repository contains a complete end-to-end data analytics. The project proce
 - Validate sub_institute_id as a mandatory field
 - Generate schema documentation (data_schema.json)
   
-# Outputs:
+## Outputs:
 - Cleaned dataset (cleaned_s_user_jobrole.csv)
 - Schema file (data_schema.json)
 
-## Sprint 2: Data Cleaning & Transformation (ETL)
-# Implemented in code:
+# Sprint 2: Data Cleaning & Transformation (ETL)
+## Implemented in code:
 - Handle missing values in critical columns
 - Flag missing values for analysis
 - Standardize industries and department fields
 - Save fully cleaned dataset
   
-# Outputs:
+## Outputs:
 - ETL-processed dataset (cleaned_s_user_jobrole.csv)
 
-## Sprint 3: Exploratory Data Analysis (EDA)
-# Implemented in code:
+# Sprint 3: Exploratory Data Analysis (EDA)
+## Implemented in code:
 - Industry-wise, department-wise, and job-role-wise profiling
 - Trend analysis of job roles across industries
 - Identification of top industries and departments
 - Export EDA results as structured JSON
   
-# Outputs:
+## Outputs:
 - EDA report (eda_report.json)
 
-## Sprint 4: Feature Engineering & Visualization
-# Implemented in code:
+# Sprint 4: Feature Engineering & Visualization
+## Implemented in code:
 - Categorize job roles (Management, Technical, Support, Operational, Other)
 - Encode job-role categories (Label Encoding + One-Hot Encoding)
 - Generate feature-engineered dataset
 - Build a visual analytics dashboard
   
-# Outputs:
+## Outputs:
 - Feature-engineered dataset (feature_engineered_s_user_jobrole.csv)
 - Visualization dashboard (jobrole_distribution_dashboard.png)
   
