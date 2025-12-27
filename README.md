@@ -59,7 +59,6 @@ This repository contains a complete end-to-end data analytics. The project proce
 | Libraries | Pandas, NumPy, Scikit-learn |
 | Visualization | Matplotlib, Seaborn |
 | Data Formats | CSV, JSON |
-| Tools | Jupyter Notebook, GitHub |
 
 ## How to Run the Project
 1️. Install Dependencies
